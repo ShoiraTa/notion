@@ -1,0 +1,11 @@
+<div class="container p-5">
+  <%= form_with url: '/create_user', method: :post do |form| %>
+    <%= form.label :email %>
+    <%= form.email_field :email, id: :email %>
+  
+    <%= form.label :password %>
+    <%= form.password_field :password, id: :password %>
+  
+    <%= form.submit "Register", class: "register-button" %>
+  <% end %>
+</div>

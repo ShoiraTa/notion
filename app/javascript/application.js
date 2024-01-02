@@ -3,3 +3,6 @@ import "@hotwired/turbo-rails";
 import "controllers";
 import "bootstrap";
 import "popper.js/dist/popper";
+
+import * as bootstrap from "bootstrap";
+window.bootstrap = bootstrap;
